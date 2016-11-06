@@ -1,0 +1,474 @@
+
+@font-face {
+	font-family: "wolf";
+	src : url('Wolf in the City.ttf');
+}
+@font-face {
+	font-family: "intro";
+	src : url('Intro.otf');
+}
+* {margin: 0; padding: 0}
+
+.headerbgd {
+	background-image: url(images/meat_vegetables_serving_107668_1366x768.jpg);
+	background-position:center;
+	width: 100%;
+	height: 468px;
+	
+}
+.logo {
+	color: white;
+	font-family: "wolf";
+	font-size: 200px;
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.button-container {
+  text-align: center;
+}
+.button {
+  position: relative;
+  border: 2px solid #ebebeb;
+  background-color: white;
+  font-size: 1.3rem;
+  color: black;
+  margin: 3rem 0;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  line-height: 30px;
+  background-color: none;
+  opacity: 0.8;
+}
+.button span {
+  color:grey;
+}
+
+.button span :hover {
+  color: white;
+  background-color: black;
+}
+
+.button:focus {
+}
+.submit {
+	color: black;
+}
+
+/*-------navigasi-----------*/
+nav{
+	display: flex; 
+	justify-content: center; 
+	border-bottom: 2px solid #bbbcbd;
+	font-family: sans-serif;
+	background-color: white;
+}
+ nav ul {
+	
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+nav a {
+	color:#bbbfbe; text-decoration: none; 
+	padding:15px 30px; 
+	display: inline-block;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+nav a:hover {
+	background: #bbbebe; 
+	color: #fff; 
+}
+
+nav ul li {
+	float:left;
+}
+.clear {clear:both;}
+/*-------navigasi-----------*/
+
+/*-------welcome-----------*/
+.enjoy {
+	width: 100%;
+	font-family: "wolf";
+	text-align: center;
+	margin: auto;
+	padding: 40px;
+	font-size: 120px;
+	color: #2e313a;
+	letter-spacing: 7px;
+}
+.imgs{
+	justify-content: center;
+	display: flex;
+	float: center;
+	margin: 0 auto;
+	width: 80%;
+}
+.img1 {
+	width: 350px;
+	height: 250px;
+	float: left;
+}
+.img2 {
+	width: 150px;
+	height: 100px;
+padding-left: 10px;
+}
+.img3 {
+	width: 150px;
+	height: 100px;
+	padding-left: 10px;
+}
+.img4 {
+	width: 150px;
+	height: 100px;
+	padding-left: 10px;
+	
+}
+.image {
+	padding: 0px;
+}
+.content {
+	padding-bottom: 45px;
+	padding-left: 20px;
+	font-size: 30px;
+	color: #5e5f60;
+}
+.line {
+	border-bottom: 3px solid #bbbcbd;
+	width: 75%;
+	float: center;
+	margin: auto;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+.welcome{
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 15px;
+	float: center;
+	display: block;
+	width: 100%;
+	float: center;
+}
+#bdr1 {
+	border: solid 1px #87aaec;
+	border-radius: 5px;
+	width: 8%;
+	height: 30px;
+	float: center;
+	margin-left: 585px;
+	margin-top: 50px;
+	background-color: #87aaec;
+}
+.line2 {
+	border-bottom: 2px solid #bbbcbd;
+	width: 10%;
+	float: center;
+	margin: auto;
+	padding-top: 10px;
+	margin-bottom: 10px;
+
+}
+.contents{
+	width: 65%;
+	color: #5e5f60;
+	text-align: center;
+	justify-content: left;
+	display: flex;
+	float: center;
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+.line3 {
+	border-bottom: 3px solid #bbbcbd;
+	width: 75%;
+	float: center;
+	margin: auto;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+/*-------welcome-----------*/
+
+
+
+/*-------menu-----------*/
+.menu{
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 5px;
+	float: center;
+	display: block;
+	width: 100%;
+	float: center;
+}
+.line5 {
+	border-bottom: 2px solid #bbbcbd;
+	width: 10%;
+	float: center;
+	margin: auto;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+.special p {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	margin: auto;
+	width: 40%;
+	padding-top: 20px;
+	font-family: "intro";
+	font-size: 35px;
+	color: white;
+}
+.happy p {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	margin: auto;
+	width: 40%;
+	padding-top: 20px;
+	font-family: "wolf";
+	font-size: 45px;
+	color: #87aaec;
+}
+#bgd {
+	background-image: url(images/meat_fish_bread_pepper_75002_1280x720.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width: 100%;
+	height: 720px;
+	opacity: 0.8;
+}
+
+#brdr {
+	border: solid 1px grey;
+	width: 90%;
+	height: 490px;
+	float: center;
+	margin-left: 60px;
+	margin-top: 30px;
+	background-color: #fff;
+}
+.menubdr {
+	width: 100%;
+	height: 500px;
+}
+.menu3 {
+	justify-content: right;
+	float: left;
+	margin: 0 auto;
+	width: 32.5%;
+	padding-top: 20px;
+	padding-left: 20px;
+
+}
+.menu4 {
+	justify-content: right;
+	float: left;
+	width: 32.5%;
+	padding-top: 20px;
+	padding-left: 0;
+}
+.menu5 {
+	justify-content: right;
+	float: left;
+	width: 32.5%;
+	padding-top: 20px;
+	padding-left: 0;
+
+}
+	
+.img7 {
+	float: left;
+	width: 100px;
+	height: 80px;
+}
+.boxleft {
+	padding-left: 80px;
+}
+.dtls {
+	padding-bottom:10px;
+	padding-left: 30px;
+	font-size: 17px;
+	color: #000;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.pp {
+	color: #5e5f60;
+	font-family: arial;
+	font-size: 12px;
+	justify-content: center;
+	padding-left: 28px;
+
+}
+.line6 {
+	border-bottom: 2px solid #bbbcbd;
+	width: 70%;
+	float: center;
+	margin: auto;
+	padding-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.menus {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	float: center;
+}
+.menus div img {
+	width: 300px;
+	height: 280px;
+}
+
+.p1{
+	color: #5e5f60;
+	text-align: center;
+	font-family: arial;
+	padding-bottom: 5px;
+}
+.p2{
+	color: #5e5f60;
+	text-align: center;
+	padding-left: 20px;
+	font-family: arial;
+	padding-bottom: 0;
+}
+.p3{
+	color: #5e5f60;
+	padding-left: 20px;
+	text-align: center;
+	font-family: arial;
+	padding-bottom: 5px;
+}
+.price	{
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	letter-spacing: 1px;
+	color: #aac3d5;
+}
+.latest p {
+	width: 100%;
+	padding-bottom: 20px;
+	text-align: center;
+	margin: auto;
+	width: 40%;
+	font-family: "intro";
+	font-size: 35px;
+	color: #2e313a;
+}
+.happy2 p {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	margin: auto;
+	width: 40%;
+	padding-bottom: 20px;
+	font-family: "wolf";
+	font-size: 45px;
+	color: #87aaec;
+}
+#bdr2{
+	border: solid 2px #87aaec;
+	border-radius: 10px;
+	width: 8%;
+	height: 30px;
+	float: center;
+	margin-left: 585px;
+	margin-top: 50px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 4px;
+}
+.line7 {
+	border-bottom: 3px solid #bbbcbd;
+	width: 75%;
+	float: center;
+	margin: auto;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+/*-------menu-----------*/
+
+/*-------why us-----------*/
+.why {
+	justify-content: center;
+	display: flex;
+	float: center;
+	margin: 0 auto;
+	width: 75%;
+	padding-top: 20px;
+}
+.p {
+	font-family: sans-serif;
+	padding-right: 10px;
+	color: #5e5f60;
+}
+.img5 {
+	width: 380px;
+	height: 250px;
+	float: right;
+	padding-top: 38px;
+}
+.img5 a:hover {
+	width: 400px;
+	height: 270px;
+}
+.line4 {
+	border-bottom: 3px solid #bbbcbd;
+	width: 75%;
+	float: center;
+	margin: auto;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+/*-------why us-----------*/
+/*-------footer-----------*/
+
+.footer {
+	background-color: #ebebeb;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	justify-content: center;
+	display: flex;
+	float: center;
+	margin-top: 50px;
+	width: 100%;}
+.copy a {
+	color: #ffffcc
+}
+.copy a:link {
+	text-decoration: none;
+}
+.copy a:hover {
+	text-decoration: underline;
+}
+.imgftr {
+	padding-left: 750px;
+	padding-right: 8px;
+
+}
+.folow {
+	justify-content: center;
+	font-family: arial;
+	font-size: 12px;
+	float: left;
+	color: grey;
+	border-right: 2px solid grey;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+.padd {
+	width: 20px;
+	height: 20px;
+	padding-left: 10px;
+}
+/*-------footer-----------*/
